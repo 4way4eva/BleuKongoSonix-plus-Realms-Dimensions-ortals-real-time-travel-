@@ -34,8 +34,9 @@ def validate_artifact(artifact_file):
         elif schema_type == 'EV0L/BROKER_PLACEMENT.v1':
             required = ['artifact_id', 'density_score', 'bills_issued', 'metavault', 'declared_by', 'declaration']
         else:
-            print(f"⚠️  {artifact_file.name}: Unknown schema type '{schema_type}'")
-            return True  # Don't fail on unknown schemas
+            print(f"⚠️  {artifact_file.name}: Unknown schema type '{schema_type}' - skipping validation")
+            print(f"    Known schemas: EV0L/ENFT.v1, EV0L/ENFT_BUNDLE.v1, EV0L/BROKER_PLACEMENT.v1")
+            return True  # Don't fail on unknown schemas, but warn clearly
         
         # Check required fields
         missing = [field for field in required if field not in artifact]
