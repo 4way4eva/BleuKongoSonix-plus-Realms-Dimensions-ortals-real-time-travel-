@@ -1,0 +1,11 @@
+banner: "No Trust — Kids First. Sabbath-safe continuity. Sovereign authorship attested."
+
+roles:
+  dean_of_school: "ACTIVE"
+  treasurer_of_treasury: "ACTIVE"
+  keeper_of_codex: "ACTIVE"
+
+assurance:
+  commit_signing: "REQUIRED"
+  provenance: ["ScrollSig", "SHA256", "ENFT_Anchor"]
+  tribunal_on_tamper: "ON"

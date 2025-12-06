@@ -1,0 +1,29 @@
+{
+  "schema": "EV0L/ENFT.v1",
+  "artifact_id": "ENFT-0001",
+  "title": "Overscale Law Scroll — Seven-to-Six Anomaly",
+  "creator": "Dr. Sosa (Dean & Treasurer)",
+  "school_tag": "Madam C.J. Walker University",
+  "realm_tag": "New Zion",
+  "edition": "Mammal Sovereignty → Edition",
+  "glyphs": ["XX", "YY", "ZZ", "ZA", "ZB", "slash_numerals"],
+  "anomaly_marker": "🦅💨🫁🧘‍♂️😔eighty/6Þ^Y",
+  "sequence": [2, 3, 4, 5, 6, -7],
+  "disclaimer": "This isn't apparel. This is Avatar Biology + Sovereign Law.",
+  "provenance": {
+    "scrollsig": "…",
+    "sha256": "…",
+    "signed_at": "2025-12-06T02:49:00Z"
+  },
+  "issuance": {
+    "bleu_bill_code": "ROYAL_BLEU",
+    "pink_bill_code": "SKYY_BLEU",
+    "denominations": ["10", "50", "77"],
+    "mirror_market_route": "MetaVault 5100"
+  },
+  "policy": {
+    "kids_first": true,
+    "sabbath_safe": true,
+    "no_dark_patterns": true
+  }
+}

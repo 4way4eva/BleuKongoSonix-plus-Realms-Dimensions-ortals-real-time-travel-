@@ -1,0 +1,10 @@
+{
+  "schema": "EV0L/BROKER_PLACEMENT.v1",
+  "artifact_id": "ENFT-0003",
+  "density_score": 0.92,
+  "bills_issued": ["ARCHIVE_BLEU", "ROYAL_BLEU", "TRANSPARENCY_BLEU"],
+  "metavault": "5100",
+  "declared_by": "Dr. Sosa",
+  "declaration": "This codex inheritance is Treasury.",
+  "routes": ["1a-2b-3c", "0f-aa-7c"]
+}

@@ -1,0 +1,86 @@
+{
+  "enft_system_version": "1.0.0",
+  "last_updated": "2025-12-06T02:49:00Z",
+  "artifacts": {
+    "ENFT-0001": {
+      "title": "Overscale Law Scroll — Seven-to-Six Anomaly",
+      "type": "Legal Document",
+      "creator": "Dr. Sosa (Dean & Treasurer)",
+      "school": "Madam C.J. Walker University",
+      "realm": "New Zion",
+      "status": "Active",
+      "file": "artifacts/ENFT-0001.json"
+    },
+    "ENFT-0002": {
+      "title": "Routes Ledger — Silk Road Archive",
+      "type": "Historical Archive",
+      "creator": "Historian Middle School — Douglass House",
+      "school": "Historian Middle School — Douglass House",
+      "realm": "Atlantis",
+      "status": "Active",
+      "file": "artifacts/ENFT-0002.json",
+      "data_source": "data/routes.csv"
+    },
+    "ENFT-0003": {
+      "title": "Global Extraction Dossier — Congo Free State",
+      "type": "Historical Archive",
+      "creator": "Historian Middle School — Tubman House",
+      "school": "Historian Middle School — Tubman House",
+      "realm": "Islands",
+      "status": "Active",
+      "file": "artifacts/ENFT-0003.json",
+      "data_source": "data/Global_Extraction_Dossier.csv",
+      "broker_placement": "brokers/ENFT-0003-placement.json"
+    }
+  },
+  "bundles": {
+    "BNDL-0012": {
+      "title": "Historical Archives Collection",
+      "artifacts": ["ENFT-0002", "ENFT-0003"],
+      "file": "bundles/BNDL-0012.json"
+    }
+  },
+  "bill_codes": {
+    "ROYAL_BLEU": {
+      "description": "Primary sovereignty and legal documents",
+      "artifacts": ["ENFT-0001"]
+    },
+    "ARCHIVE_BLEU": {
+      "description": "Historical archives and educational materials",
+      "artifacts": ["ENFT-0002", "ENFT-0003"]
+    },
+    "SKYY_BLEU": {
+      "description": "Secondary issuance for complementary materials",
+      "artifacts": ["ENFT-0001", "ENFT-0003"]
+    },
+    "TRANSPARENCY_BLEU": {
+      "description": "Public records and accountability documents",
+      "artifacts": []
+    }
+  },
+  "metavaults": {
+    "5100": {
+      "description": "Primary artifact storage and mirror market",
+      "artifacts": ["ENFT-0001", "ENFT-0002", "ENFT-0003"]
+    }
+  },
+  "schools": {
+    "Madam C.J. Walker University": {
+      "realm": "New Zion",
+      "artifacts": ["ENFT-0001"]
+    },
+    "Historian Middle School — Douglass House": {
+      "realm": "Atlantis",
+      "artifacts": ["ENFT-0002"]
+    },
+    "Historian Middle School — Tubman House": {
+      "realm": "Islands",
+      "artifacts": ["ENFT-0003"]
+    }
+  },
+  "realms": {
+    "New Zion": ["ENFT-0001"],
+    "Atlantis": ["ENFT-0002"],
+    "Islands": ["ENFT-0003"]
+  }
+}
