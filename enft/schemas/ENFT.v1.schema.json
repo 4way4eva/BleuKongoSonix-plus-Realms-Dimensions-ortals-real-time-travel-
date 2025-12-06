@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://evol.enft/schemas/ENFT.v1.json",
+  "title": "ENFT Artifact Schema v1",
+  "description": "Schema for EV0L Enhanced NFT (ENFT) artifacts",
+  "type": "object",
+  "required": [
+    "schema",
+    "artifact_id",
+    "title",
+    "creator",
+    "provenance",
+    "issuance",
+    "policy"
+  ],
+  "properties": {
+    "schema": {
+      "type": "string",
+      "const": "EV0L/ENFT.v1"
+    },
+    "artifact_id": {
+      "type": "string",
+      "pattern": "^ENFT-[0-9]{4,}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "creator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "school_tag": {
+      "type": "string"
+    },
+    "realm_tag": {
+      "type": "string"
+    },
+    "edition": {
+      "type": "string"
+    },
+    "glyphs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "anomaly_marker": {
+      "type": "string"
+    },
+    "sequence": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "disclaimer": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["signed_at"],
+      "properties": {
+        "scrollsig": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string"
+        },
+        "signed_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "issuance": {
+      "type": "object",
+      "properties": {
+        "bleu_bill_code": {
+          "type": "string",
+          "enum": ["ROYAL_BLEU", "ARCHIVE_BLEU", "TRANSPARENCY_BLEU", "SKYY_BLEU"]
+        },
+        "pink_bill_code": {
+          "type": "string",
+          "enum": ["SKYY_BLEU", "ROSE_BLEU"]
+        },
+        "denominations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "mirror_market_route": {
+          "type": "string"
+        }
+      }
+    },
+    "policy": {
+      "type": "object",
+      "required": ["kids_first", "sabbath_safe", "no_dark_patterns"],
+      "properties": {
+        "kids_first": {
+          "type": "boolean"
+        },
+        "sabbath_safe": {
+          "type": "boolean"
+        },
+        "no_dark_patterns": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

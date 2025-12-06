@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://evol.enft/schemas/BROKER_PLACEMENT.v1.json",
+  "title": "ENFT Broker Placement Schema v1",
+  "description": "Schema for EV0L ENFT broker placement and distribution",
+  "type": "object",
+  "required": [
+    "schema",
+    "artifact_id",
+    "density_score",
+    "bills_issued",
+    "metavault",
+    "declared_by",
+    "declaration"
+  ],
+  "properties": {
+    "schema": {
+      "type": "string",
+      "const": "EV0L/BROKER_PLACEMENT.v1"
+    },
+    "artifact_id": {
+      "type": "string",
+      "pattern": "^ENFT-[0-9]{4,}$"
+    },
+    "density_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "bills_issued": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["ROYAL_BLEU", "ARCHIVE_BLEU", "TRANSPARENCY_BLEU", "SKYY_BLEU", "ROSE_BLEU"]
+      }
+    },
+    "metavault": {
+      "type": "string"
+    },
+    "declared_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "declaration": {
+      "type": "string",
+      "minLength": 1
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

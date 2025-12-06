@@ -1,0 +1,28 @@
+{
+  "schema": "EV0L/ENFT_BUNDLE.v1",
+  "bundle_id": "BNDL-0012",
+  "artifacts": [
+    {
+      "artifact_id": "ENFT-0002",
+      "title": "Routes Ledger — Silk Road Archive",
+      "school_tag": "Historian Middle School — Douglass House",
+      "realm_tag": "Atlantis",
+      "route_key_xx_yy_zz": "4a-10-10",
+      "source_csv_ref": "routes.csv#row:China-Kaifeng-Jews",
+      "issuance": {
+        "bleu_bill_code": "ARCHIVE_BLEU"
+      }
+    },
+    {
+      "artifact_id": "ENFT-0003",
+      "title": "Global Extraction Dossier — Congo Free State",
+      "school_tag": "Historian Middle School — Tubman House",
+      "realm_tag": "Islands",
+      "source_csv_ref": "Global_Extraction_Dossier.csv#Belgian-Congo-Free-State",
+      "issuance": {
+        "bleu_bill_code": "ARCHIVE_BLEU",
+        "pink_bill_code": "SKYY_BLEU"
+      }
+    }
+  ]
+}

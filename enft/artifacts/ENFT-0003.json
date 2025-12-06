@@ -1,0 +1,25 @@
+{
+  "schema": "EV0L/ENFT.v1",
+  "artifact_id": "ENFT-0003",
+  "title": "Global Extraction Dossier — Congo Free State",
+  "creator": "Historian Middle School — Tubman House",
+  "school_tag": "Historian Middle School — Tubman House",
+  "realm_tag": "Islands",
+  "source_csv_ref": "Global_Extraction_Dossier.csv#Belgian-Congo-Free-State",
+  "provenance": {
+    "scrollsig": "extraction-archive-2025",
+    "sha256": "global-colonial-extraction-records",
+    "signed_at": "2025-12-06T02:49:00Z"
+  },
+  "issuance": {
+    "bleu_bill_code": "ARCHIVE_BLEU",
+    "pink_bill_code": "SKYY_BLEU",
+    "denominations": ["50", "100", "150"],
+    "mirror_market_route": "MetaVault 5100"
+  },
+  "policy": {
+    "kids_first": true,
+    "sabbath_safe": true,
+    "no_dark_patterns": true
+  }
+}

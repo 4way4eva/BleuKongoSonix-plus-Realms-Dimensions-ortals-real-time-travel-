@@ -1,0 +1,6 @@
+route_id,origin,destination,category,period,route_key,notes
+1,China,Kaifeng,Jews,Medieval,4a-10-10,"Historical trade route connecting Chinese Jewish communities during the Silk Road era"
+2,Arabia,Mediterranean,Spices,Ancient,3b-05-08,"Spice trade route through the Arabian Peninsula"
+3,India,Europe,Textiles,Classical,2c-12-15,"Silk and textile trade connecting Indian subcontinent to European markets"
+4,Persia,China,Silk,Ancient,4a-10-10,"Main Silk Road route through Persian territories"
+5,Africa,Asia,Gold,Medieval,1d-07-20,"Trans-Saharan and Indian Ocean gold trade routes"

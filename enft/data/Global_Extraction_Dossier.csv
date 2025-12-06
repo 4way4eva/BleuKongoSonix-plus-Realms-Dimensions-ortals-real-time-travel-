@@ -1,0 +1,9 @@
+region,colonial_power,period,resource_extracted,extraction_method,impact,reference_id
+Belgian-Congo-Free-State,Belgium,1885-1908,Rubber,Forced Labor,"Severe humanitarian crisis with millions of deaths, exploitation of indigenous population",ECFS-001
+Belgian-Congo-Free-State,Belgium,1885-1908,Ivory,Forced Labor,"Decimation of elephant populations, forced labor systems",ECFS-002
+South-Africa,Britain-Netherlands,1867-1914,Diamonds,Mining,"Displacement of indigenous populations, establishment of exploitative labor systems",SA-DIAM-001
+India,Britain,1757-1947,Textiles,"Tax and Trade Control","Deindustrialization of Indian textile industry, famine conditions",IND-TEX-001
+Peru-Bolivia,Spain,1545-1825,Silver,Mining,"Forced labor (mita system), environmental devastation, indigenous population decline",LATAM-SIL-001
+Indonesia,Netherlands,1602-1949,Spices,"Monopoly Control","Forced cultivation systems, destruction of competitor crops, exploitation",INDO-SPC-001
+Caribbean,Multiple,1492-1888,Sugar,"Enslaved Labor","Atlantic slave trade, plantation economies, generational trauma",CARIB-SUG-001
+Australia,Britain,1788-1901,Gold-Land,Mining-Settlement,"Displacement and genocide of Aboriginal populations, land theft",AUS-GOLD-001
