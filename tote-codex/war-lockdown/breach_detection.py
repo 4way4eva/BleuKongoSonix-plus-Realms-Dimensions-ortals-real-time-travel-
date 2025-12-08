@@ -12,8 +12,8 @@ from typing import Dict, List, Any
 class WARLockdown:
     """W.A.R. LOCKDOWN breach detection and response system"""
     
-    def __init__(self, config_path: str = "tote-config.yml"):
-        self.breach_timeout = 51  # seconds
+    def __init__(self, breach_timeout: int = 51):
+        self.breach_timeout = breach_timeout  # seconds
         self.echo_nodes = [
             "BLEU_Treasury",
             "MetaVault_5100",

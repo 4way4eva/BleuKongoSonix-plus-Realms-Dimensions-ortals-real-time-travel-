@@ -19,8 +19,8 @@
     },
     "timering_code": {
       "type": "string",
-      "pattern": "^THY-[0-9A-Z]{2,3}B-[ΣΦΩ0-9]{2,3}$",
-      "description": "The actual TimeRing code (e.g., THY-51B-ΣΦ7)"
+      "pattern": "^THY-[0-9A-Z]{2,3}B-[\\u03A3\\u03A6\\u03A9\\u0394\\u0398\\u039B\\u039E\\u03A00-9]{2,3}$",
+      "description": "The actual TimeRing code (e.g., THY-51B-ΣΦ7) with Greek letters"
     },
     "evol_timestamp": {
       "type": "string",

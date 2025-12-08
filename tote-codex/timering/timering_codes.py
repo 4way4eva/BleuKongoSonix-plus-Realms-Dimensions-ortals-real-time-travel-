@@ -10,6 +10,9 @@ import string
 from datetime import datetime, timedelta
 from typing import Dict, Any, Optional
 
+# Greek cipher characters for TimeRing codes
+GREEK_CIPHERS = ['Σ', 'Φ', 'Ω', 'Δ', 'Θ', 'Λ', 'Ξ', 'Π']
+
 class TimeRingCodeSystem:
     """
     TimeRing Code System
@@ -32,9 +35,8 @@ class TimeRingCodeSystem:
         # Generate components
         id_part = ''.join(random.choices(string.digits + string.ascii_uppercase, k=2))
         
-        # Greek cipher options
-        greek_chars = ['Σ', 'Φ', 'Ω', 'Δ', 'Θ', 'Λ', 'Ξ', 'Π']
-        cipher = ''.join(random.choices(greek_chars + list(string.digits), k=3))
+        # Use Greek cipher characters
+        cipher = ''.join(random.choices(GREEK_CIPHERS + list(string.digits), k=3))
         
         # Create code
         code = f"THY-{id_part}B-{cipher}"
