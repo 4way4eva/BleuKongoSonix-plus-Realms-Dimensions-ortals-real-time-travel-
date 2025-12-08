@@ -1,0 +1,80 @@
+{
+  "theme_name": "BleuKongo Classic",
+  "version": "1.0",
+  "description": "Dark theme optimized for retro gaming aesthetic",
+  "global": {
+    "primary_bg": "#1a1a2e",
+    "secondary_bg": "#16213e",
+    "tertiary_bg": "#0f3460",
+    "primary_text": "#eaeaea",
+    "secondary_text": "#c4c4c4",
+    "accent": "#e94560",
+    "highlight": "#00d9ff",
+    "success": "#00ff88",
+    "warning": "#ffaa00",
+    "error": "#ff4444",
+    "border": "#2d4059"
+  },
+  "menu": {
+    "background": "#1a1a2e",
+    "item_normal": "#eaeaea",
+    "item_hover": "#00d9ff",
+    "item_selected": "#e94560",
+    "item_disabled": "#666666",
+    "separator": "#2d4059"
+  },
+  "game_specific": {
+    "hangman": {
+      "background": "#1a1a2e",
+      "letter_unguessed": "#c4c4c4",
+      "letter_correct": "#00ff88",
+      "letter_wrong": "#ff4444",
+      "hangman_color": "#e94560"
+    },
+    "minesweeper": {
+      "cell_unrevealed": "#c0c0c0",
+      "cell_revealed": "#ffffff",
+      "cell_flagged": "#ff6b00",
+      "mine": "#ff0000",
+      "grid_line": "#808080"
+    },
+    "breakout": {
+      "background": "#000000",
+      "paddle": "#ffffff",
+      "ball": "#ffffff",
+      "border": "#808080"
+    },
+    "wheelie_lynch": {
+      "hud_background": "rgba(10, 10, 10, 0.7)",
+      "speed_text": "#00ff00",
+      "position_text": "#ffd700",
+      "lap_text": "#00d9ff",
+      "nitro_gauge": "#ff4500"
+    }
+  },
+  "fonts": {
+    "primary": {
+      "family": "monospace",
+      "sizes": {
+        "small": 12,
+        "medium": 16,
+        "large": 24,
+        "xlarge": 32
+      }
+    },
+    "secondary": {
+      "family": "sans-serif",
+      "sizes": {
+        "small": 10,
+        "medium": 14,
+        "large": 20,
+        "xlarge": 28
+      }
+    }
+  },
+  "animations": {
+    "transition_speed": "0.2s",
+    "hover_scale": 1.05,
+    "button_press_scale": 0.95
+  }
+}
