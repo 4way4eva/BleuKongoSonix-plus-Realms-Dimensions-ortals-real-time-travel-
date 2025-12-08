@@ -1,0 +1,149 @@
+{
+  "communities": [
+    {
+      "group_name": "Afro-Puerto Rican",
+      "symbol": "🇵🇷",
+      "origin": "West Africa via Atlantic slave trade",
+      "present_location": ["Puerto Rico", "Loíza", "Ponce"],
+      "notable_features": [
+        "Tego Calderón (musician)",
+        "Afro-Caribbean festivals",
+        "Bomba and Plena music traditions"
+      ]
+    },
+    {
+      "group_name": "Afro-Mexican",
+      "symbol": "🇲🇽",
+      "origin": "West Africa via colonial ports",
+      "present_location": ["Mexico", "Costa Chica", "Oaxaca", "Guerrero"],
+      "notable_features": [
+        "María Reyna",
+        "Afro-Mexican theater and museum in Costa Chica",
+        "Recognized as distinct ethnic group in 2019"
+      ]
+    },
+    {
+      "group_name": "Afro-Brazilian",
+      "symbol": "🇧🇷",
+      "origin": "West/Central Africa via Portuguese trade",
+      "present_location": ["Brazil", "Bahia", "Rio de Janeiro"],
+      "notable_features": [
+        "Pelé",
+        "Gilberto Gil",
+        "Afro-Brazilian Carnival",
+        "Candomblé and Umbanda religious practices"
+      ]
+    },
+    {
+      "group_name": "Afro-Colombian",
+      "symbol": "🇨🇴",
+      "origin": "West Africa via Cartagena trade",
+      "present_location": ["Colombia", "Chocó", "Cartagena"],
+      "notable_features": [
+        "Petronio Alvarez Festival",
+        "Cumbia and Vallenato music",
+        "San Basilio de Palenque - first free African town in Americas"
+      ]
+    },
+    {
+      "group_name": "Afro-Cuban",
+      "symbol": "🇨🇺",
+      "origin": "West Africa via Caribbean trade",
+      "present_location": ["Cuba", "Havana", "Santiago"],
+      "notable_features": [
+        "Afro-Cuban Jazz legends",
+        "Santería syncretism",
+        "Rumba and Son music traditions"
+      ]
+    },
+    {
+      "group_name": "Afro-Chinese",
+      "symbol": "🇨🇳",
+      "origin": "West Africa via Silk Road and modern diaspora",
+      "present_location": ["China", "Guangzhou", "Hong Kong", "Urban hubs"],
+      "notable_features": [
+        "Black expats",
+        "Hip-hop artists in Hong Kong",
+        "Growing African diaspora in southern China"
+      ]
+    },
+    {
+      "group_name": "Afro-Filipino",
+      "symbol": "🇵🇭",
+      "origin": "Via Mexico-Acapulco Galleon trade",
+      "present_location": ["Philippines", "Luzon", "Manila", "Mindanao"],
+      "notable_features": [
+        "Afro-Filipino community activists in Manila",
+        "Historical presence dating to 16th century Spanish trade",
+        "Mixed African-Filipino heritage communities"
+      ]
+    },
+    {
+      "group_name": "Afro-Indigenous (USA)",
+      "symbol": "🇺🇸",
+      "origin": "Enslaved Africans + Indigenous marriage",
+      "present_location": ["Southern USA", "Florida", "Louisiana", "Georgia"],
+      "notable_features": [
+        "Black Seminole heritage",
+        "Gullah/Geechee culture",
+        "Unique language preservation",
+        "Historical maroon communities"
+      ]
+    },
+    {
+      "group_name": "Afro-Dominican",
+      "symbol": "🇩🇴",
+      "origin": "African diaspora via Haiti and Spanish trade",
+      "present_location": ["Dominican Republic", "Santo Domingo"],
+      "notable_features": [
+        "Afro-Caribbean roots in DR identity",
+        "Merengue and Bachata music traditions",
+        "Complex racial identity and history"
+      ]
+    },
+    {
+      "group_name": "Afro-Palestinian",
+      "symbol": "🇵🇸",
+      "origin": "Sudanese and Egyptian military lineage",
+      "present_location": ["East Jerusalem", "Jericho"],
+      "notable_features": [
+        "Afro-Palestinian community center, Jerusalem",
+        "Historical presence dating to 7th century",
+        "Unique position in Middle Eastern diaspora"
+      ]
+    },
+    {
+      "group_name": "Afro-Indian (Siddi)",
+      "symbol": "🇮🇳",
+      "origin": "Bantu and East African ancestry",
+      "present_location": ["Gujarat", "Karnataka"],
+      "notable_features": [
+        "Siddi communities with royal guards legacy",
+        "Unique Afro-Indian cultural fusion",
+        "Historical presence dating to medieval period"
+      ]
+    },
+    {
+      "group_name": "Afro-Iraqi",
+      "symbol": "🇮🇶",
+      "origin": "East Africa via Zanzibar slave trade",
+      "present_location": ["Basra", "Nasiriyah"],
+      "notable_features": [
+        "Afro-Iraqis advocating for civil rights",
+        "Historical discrimination and recent recognition",
+        "Unique cultural preservation in Middle East"
+      ]
+    },
+    {
+      "group_name": "Afro-Iranian",
+      "symbol": "🇮🇷",
+      "origin": "Bantu and East African slave ports",
+      "present_location": ["Hormozgan", "Sistan"],
+      "notable_features": [
+        "Afro-Iranian music and culture festivals",
+        "Bandari music traditions",
+        "Historical presence in southern Iran"
+      ]
+    }
+  ]
+}

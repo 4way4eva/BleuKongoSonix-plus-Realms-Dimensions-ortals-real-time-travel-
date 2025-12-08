@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Afro-Diaspora Community Schema",
+  "description": "Schema for Afro-diaspora communities worldwide",
+  "type": "object",
+  "properties": {
+    "communities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "group_name": {
+            "type": "string",
+            "description": "Name of the Afro-diaspora group"
+          },
+          "symbol": {
+            "type": "string",
+            "description": "Flag or symbolic representation"
+          },
+          "origin": {
+            "type": "string",
+            "description": "Historical origin and migration route"
+          },
+          "present_location": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Current geographic locations"
+          },
+          "notable_features": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Notable cultural features, events, or individuals"
+          }
+        },
+        "required": ["group_name", "symbol", "origin", "present_location"]
+      }
+    }
+  },
+  "required": ["communities"]
+}

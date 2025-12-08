@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Colonial Entity Schema",
+  "description": "Schema for colonial entities and their resource extraction activities",
+  "type": "object",
+  "properties": {
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the colonial entity or company"
+          },
+          "resources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Primary resources extracted"
+          },
+          "operating_regions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Geographic regions of operation"
+          },
+          "modern_successor": {
+            "type": "string",
+            "description": "Modern successor or derivative company"
+          },
+          "category": {
+            "type": "string",
+            "enum": ["trading_company", "mining", "oil_gas", "agriculture", "finance", "manufacturing", "other"],
+            "description": "Category of colonial entity"
+          }
+        },
+        "required": ["name", "resources", "operating_regions", "modern_successor"]
+      }
+    }
+  },
+  "required": ["entities"]
+}
