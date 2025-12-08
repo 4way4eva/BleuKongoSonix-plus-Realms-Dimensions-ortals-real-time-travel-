@@ -20,14 +20,23 @@ Classic mine sweeping puzzle game (Minesweeper variant).
 Classic brick-breaking arcade game.
 - Configuration: `configs/atari_breakout.json`
 - Type: Arcade
-- Version: 4.7
+- Version: 4.7 (specified in original requirements)
+- Note: "#6" designates this as variant 6 of the Atari Breakout series
 
 ### 4. Wheelie Lynch 🏍️
 Wheelie-based motorcycle racing game featuring cyborg racer Lynch.
 - Configuration: `configs/wheelie_lynch.json`
 - Type: Racing
-- Version: 4.7
+- Version: 4.7 (specified in original requirements)
 - Special Features: Cybernetic enhancements (🦾🦿🤖)
+- Note: Version 4.7 indicates a specific build referenced in the original specification
+
+## Versioning
+
+- **HangMan** and **MineZZ**: Version 1.0 (new implementations)
+- **Atari Breakout #6** and **Wheelie Lynch**: Version 4.7 (specified in original requirements as "₩heelieLynch 4.7" and "Atari🧱 #6")
+
+The version numbers reflect the specifications from the problem statement rather than a standard versioning scheme.
 
 ## Configuration Format
 

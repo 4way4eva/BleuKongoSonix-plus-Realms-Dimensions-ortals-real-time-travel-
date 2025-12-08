@@ -4,6 +4,7 @@
   "type": "racing",
   "description": "Wheelie-based motorcycle racing game 🦾🦿🤖",
   "emoji": "🏍️",
+  "_version_note": "Version 4.7 comes from the original problem statement specification (₩heelieLynch 4.7)",
   "character": {
     "name": "Lynch",
     "type": "cyborg_racer",

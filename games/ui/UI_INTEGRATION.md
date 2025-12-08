@@ -200,8 +200,12 @@ void sdl_render_game(GameConfig* config, SDL_Renderer* renderer) {
 
 ### Test Each Game
 ```bash
-# Validate JSON configs
+# Validate all JSON configs
 python3 -m json.tool games/configs/hangman.json
+python3 -m json.tool games/configs/minesweeper.json
+python3 -m json.tool games/configs/atari_breakout.json
+python3 -m json.tool games/configs/wheelie_lynch.json
+python3 -m json.tool games/game_index.json
 python3 -m json.tool games/ui/themes/bleu_kongo_classic.json
 
 # Test game loading

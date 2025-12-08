@@ -2,8 +2,9 @@
   "name": "Atari Breakout #6",
   "version": "4.7",
   "type": "arcade",
-  "description": "Classic brick-breaking arcade game 🧱",
+  "description": "Classic brick-breaking arcade game 🧱 - Variant #6 as specified in requirements",
   "emoji": "🧱",
+  "_version_note": "Version 4.7 and variant #6 designation come from the original problem statement specification",
   "game_modes": [
     {
       "mode": 1,
