@@ -80,14 +80,17 @@ The diaspora communities data is compiled from:
 
 ### Validation
 
-JSON schemas are provided to validate the data structure:
+JSON schemas are provided to validate the data structure. You can use Python's built-in JSON module or install a JSON schema validator:
 
 ```bash
-# Validate colonial entities data
-jsonschema -i data/colonial_entities.json schemas/colonial_entity_schema.json
+# Using Python's built-in JSON validator (basic syntax check)
+python3 -m json.tool data/colonial_entities.json > /dev/null
+python3 -m json.tool data/afro_diaspora_communities.json > /dev/null
 
-# Validate diaspora communities data
-jsonschema -i data/afro_diaspora_communities.json schemas/afro_diaspora_schema.json
+# Optional: Install jsonschema for schema validation
+# pip install jsonschema
+# jsonschema -i data/colonial_entities.json schemas/colonial_entity_schema.json
+# jsonschema -i data/afro_diaspora_communities.json schemas/afro_diaspora_schema.json
 ```
 
 ### Loading Data

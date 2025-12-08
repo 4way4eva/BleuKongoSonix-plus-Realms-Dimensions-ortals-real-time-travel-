@@ -37,7 +37,7 @@
             "description": "Category of colonial entity"
           }
         },
-        "required": ["name", "resources", "operating_regions", "modern_successor"]
+        "required": ["name", "resources", "operating_regions", "modern_successor", "category"]
       }
     }
   },
