@@ -1,0 +1,32 @@
+# ENFT Configuration - Enhanced NFT System
+# EV0L Enhanced NFT (ENFT) Core Configuration
+
+version: "1.0.0"
+name: "ENFT System - Tote Codex W.A.R. Mode"
+
+# Core Policies (ALL artifacts must comply)
+core_policies:
+  kids_first: true
+  sabbath_safe: true
+  no_dark_patterns: true
+
+# TOTE-CODEX Integration
+tote_codex:
+  enabled: true
+  war_mode: true  # W.A.R. = Watchtower Asset Retrieval
+  
+# Security Settings
+security:
+  mimicry_detection: true
+  scroll_sing_defense: true
+  timering_codes: true
+  tribunal_logging: true
+  
+# BLEU WALLET Integration
+bleu_wallet:
+  enabled: true
+  coin_classes:
+    - BLEU_BILL_ZB
+    - PINK_BILL_ZA
+    - ZIONIARE_COIN
+    - MIRROR_COIN
