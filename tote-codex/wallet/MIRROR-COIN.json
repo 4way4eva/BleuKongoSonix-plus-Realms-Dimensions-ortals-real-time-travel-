@@ -1,0 +1,18 @@
+{
+  "coin_id": "COIN-0004",
+  "coin_class": "MIRROR_COIN",
+  "icon": "🧿",
+  "tote_sync": "PHI-CARRIER",
+  "passive_ability": "Time-verifies every use",
+  "vault_linked": true,
+  "auto_mint_enft": false,
+  "supply_value_multiplier": 1.0,
+  "inflation_combat": false,
+  "time_verification": true,
+  "description": "Mirror Coin provides time-verification for every transaction, ensuring temporal integrity in PHI-CARRIER operations.",
+  "metadata": {
+    "created_at": "2025-12-08T17:00:00Z",
+    "created_by": "BLEU_WALLET_SYSTEM",
+    "last_updated": "2025-12-08T17:00:00Z"
+  }
+}

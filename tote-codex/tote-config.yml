@@ -1,0 +1,53 @@
+# TOTE-CODEX W.A.R. MODE Configuration
+# W.A.R. = Watchtower Asset Retrieval
+
+version: "2.0"
+mode: "WAR_ACTIVE"
+
+# Core System Switches
+core_switches:
+  ppi_bound: true
+  vault_synced: true
+  echoring_defense: true
+  mimic_detection: true
+  timering_seals: true
+  tribunal_seizure: true
+
+# Security Settings
+security:
+  breach_timeout_seconds: 51
+  echo_alert_nodes:
+    - "BLEU_Treasury"
+    - "MetaVault_5100"
+    - "SafeHaven_Dome_Grid"
+  spiral_flush_enabled: true
+  scroll_sync_enabled: true
+  toteburst_enabled: true
+
+# Compliance Policies
+policies:
+  kids_first: true
+  sabbath_safe: true
+  no_dark_patterns: true
+  divine_scroll_property: true
+  righteous_movement_only: true
+
+# TimeRing Configuration
+timering:
+  format: "THY-{id}B-{cipher}"
+  evol_clock_sync: true
+  purge_on_violation: true
+  vault_return_enabled: true
+
+# Tribunal Settings
+tribunal:
+  archive_name: "AOQPPPPI_Tribunal_Archive"
+  metabank_enabled: true
+  bleulion_ledger: true
+  receipt_mandatory: true
+
+# Wallet Integration
+wallet:
+  system: "BLEU_WALLET"
+  vault_linked: true
+  auto_mint_enft: true

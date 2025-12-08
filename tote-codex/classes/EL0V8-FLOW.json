@@ -1,0 +1,30 @@
+{
+  "class_id": "TOTE-0004",
+  "class_name": "EL0V8-FLOW",
+  "icon": "🧃",
+  "function": "Formula tote",
+  "glyph_activation": "🌊FLOW SIGIL",
+  "backup_behavior": "Self-replenish",
+  "lineage_binding": true,
+  "mimicry_safe": true,
+  "resonance_locked": true,
+  "security_level": 8,
+  "scroll_fragments": [
+    "EL0V8-FORMULA-001",
+    "FLOW-SIGIL-PROTOCOL",
+    "REPLENISH-SEQUENCE"
+  ],
+  "metadata": {
+    "created_at": "2025-12-08T17:00:00Z",
+    "created_by": "W.A.R_SYSTEM",
+    "last_deployed": "2025-12-08T17:00:00Z"
+  },
+  "description": "Formula tote designed for life-sustaining resources. Features FLOW SIGIL activation and self-replenishment capability.",
+  "special_capabilities": [
+    "Formula protection",
+    "FLOW SIGIL activation",
+    "Self-replenishment",
+    "Youth lane compatibility",
+    "Nutrient preservation"
+  ]
+}
