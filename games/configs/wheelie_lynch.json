@@ -1,0 +1,79 @@
+{
+  "name": "Wheelie Lynch",
+  "version": "4.7",
+  "type": "racing",
+  "description": "Wheelie-based motorcycle racing game 🦾🦿🤖",
+  "emoji": "🏍️",
+  "character": {
+    "name": "Lynch",
+    "type": "cyborg_racer",
+    "special_ability": "extended_wheelie",
+    "cybernetic_enhancements": ["🦾", "🦿", "🤖"]
+  },
+  "game_modes": [
+    {
+      "mode": 1,
+      "name": "Time Trial",
+      "laps": 3,
+      "wheelie_bonus_multiplier": 1.5,
+      "opponents": 0
+    },
+    {
+      "mode": 2,
+      "name": "Championship",
+      "laps": 5,
+      "wheelie_bonus_multiplier": 2.0,
+      "opponents": 7
+    },
+    {
+      "mode": 3,
+      "name": "Wheelie Master",
+      "laps": 1,
+      "wheelie_bonus_multiplier": 3.0,
+      "opponents": 3,
+      "wheelie_only": true
+    }
+  ],
+  "tracks": [
+    {
+      "id": 1,
+      "name": "City Circuit",
+      "difficulty": "easy",
+      "length_km": 2.5
+    },
+    {
+      "id": 2,
+      "name": "Mountain Pass",
+      "difficulty": "medium",
+      "length_km": 4.0
+    },
+    {
+      "id": 3,
+      "name": "Desert Storm",
+      "difficulty": "hard",
+      "length_km": 5.5
+    }
+  ],
+  "mechanics": {
+    "wheelie_duration_max": 10.0,
+    "wheelie_speed_boost": 1.3,
+    "balance_difficulty": "moderate",
+    "nitro_available": true
+  },
+  "ui_config": {
+    "background_color": "#0a0a0a",
+    "hud_color": "#00ff00",
+    "speedometer_color": "#ff4500",
+    "position_indicator_color": "#ffd700"
+  },
+  "controls": {
+    "accelerate": "A button or up key",
+    "brake": "B button or down key",
+    "wheelie": "Hold Y button",
+    "nitro": "X button",
+    "steer_left": "D-pad left or left key",
+    "steer_right": "D-pad right or right key",
+    "pause": "START button",
+    "quit": "SELECT button"
+  }
+}

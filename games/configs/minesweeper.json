@@ -1,0 +1,53 @@
+{
+  "name": "MineZZ",
+  "version": "1.0",
+  "type": "puzzle",
+  "description": "Classic mine sweeping puzzle game 💣",
+  "emoji": "💣",
+  "difficulty_levels": [
+    {
+      "level": 1,
+      "name": "Beginner",
+      "grid_width": 9,
+      "grid_height": 9,
+      "mine_count": 10
+    },
+    {
+      "level": 2,
+      "name": "Intermediate",
+      "grid_width": 16,
+      "grid_height": 16,
+      "mine_count": 40
+    },
+    {
+      "level": 3,
+      "name": "Expert",
+      "grid_width": 30,
+      "grid_height": 16,
+      "mine_count": 99
+    }
+  ],
+  "ui_config": {
+    "background_color": "#2d2d2d",
+    "cell_color": "#c0c0c0",
+    "mine_color": "#ff0000",
+    "flag_color": "#ff6b00",
+    "text_colors": {
+      "1": "#0000ff",
+      "2": "#008000",
+      "3": "#ff0000",
+      "4": "#000080",
+      "5": "#800000",
+      "6": "#008080",
+      "7": "#000000",
+      "8": "#808080"
+    }
+  },
+  "controls": {
+    "move_cursor": "D-pad",
+    "reveal_cell": "A button",
+    "flag_cell": "B button",
+    "restart": "START button",
+    "quit": "SELECT button"
+  }
+}
