@@ -4,7 +4,7 @@
 The cryptic problem statement "₩heelieLynch 4.7 andheld New HangMĂn 🦾🦿🤖1️⃣ minezz💣 Atari🧱 #6" was decoded as:
 
 - **₩heelieLynch 4.7** → Wheelie Lynch motorcycle racing game, version 4.7
-- **HangMĂn** → HangMan word guessing game
+- **HangMan** → HangMan word guessing game
 - **minezz💣** → MineZZ (Minesweeper variant)
 - **Atari🧱 #6** → Atari Breakout variant #6, version 4.7
 - **🦾🦿🤖** → Cybernetic enhancements for Wheelie Lynch character

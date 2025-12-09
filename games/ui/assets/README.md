@@ -26,7 +26,7 @@ assets/
 
 ### Backgrounds
 - Format: PNG or JPEG
-- Size: 640x480 px (Genesis resolution), scalable
+- Size: 320x224 px (Genesis native resolution, NTSC) or 320x240 px (PAL); may be upscaled to 640x480 px for modern displays
 - Naming: `{game_name}_bg.png`
 
 ### Fonts

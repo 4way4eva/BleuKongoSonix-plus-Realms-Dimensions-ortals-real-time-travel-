@@ -74,9 +74,13 @@ void render_wheelie_lynch_hud() {
     Theme* theme = get_current_theme();
     GameConfig* config = get_game_config("wheelie_lynch");
     
-    // Use theme->game_specific->wheelie_lynch colors
-    render_speed(config->ui_config->speedometer_color);
-    render_position(config->ui_config->position_indicator_color);
+    // Note: This is pseudocode. In practice, you would access parsed JSON values
+    // using a JSON library (e.g., cJSON, jansson) or custom parser
+    const char* speed_color = json_get_string(theme, "game_specific.wheelie_lynch.speed_text");
+    const char* position_color = json_get_string(config, "ui_config.position_indicator_color");
+    
+    render_speed(speed_color);
+    render_position(position_color);
 }
 ```
 

@@ -73,7 +73,8 @@
     }
   },
   "animations": {
-    "transition_speed": "0.2s",
+    "transition_speed": 0.2,
+    "transition_speed_unit": "s",
     "hover_scale": 1.05,
     "button_press_scale": 0.95
   }
