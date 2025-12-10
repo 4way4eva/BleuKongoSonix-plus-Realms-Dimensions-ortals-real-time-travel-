@@ -1,0 +1,41 @@
+{
+  "name": "HangMan",
+  "version": "1.0",
+  "type": "puzzle",
+  "description": "Classic word guessing game",
+  "emoji": "🎮",
+  "difficulty_levels": [
+    {
+      "level": 1,
+      "name": "Easy",
+      "max_attempts": 10,
+      "word_length_min": 4,
+      "word_length_max": 6
+    },
+    {
+      "level": 2,
+      "name": "Medium",
+      "max_attempts": 8,
+      "word_length_min": 6,
+      "word_length_max": 9
+    },
+    {
+      "level": 3,
+      "name": "Hard",
+      "max_attempts": 6,
+      "word_length_min": 8,
+      "word_length_max": 12
+    }
+  ],
+  "ui_config": {
+    "background_color": "#1a1a2e",
+    "text_color": "#eaeaea",
+    "accent_color": "#16213e",
+    "highlight_color": "#0f3460"
+  },
+  "controls": {
+    "select_letter": "A-Z keys or D-pad + A button",
+    "restart": "START button",
+    "quit": "SELECT button"
+  }
+}
