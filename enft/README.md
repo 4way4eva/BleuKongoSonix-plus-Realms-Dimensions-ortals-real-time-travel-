@@ -23,6 +23,38 @@ All ENFT artifacts must comply with three foundational policies:
 3. **no_dark_patterns**: No manipulative design or predatory mechanics
 
 These policies ensure the EVOLVERSE maintains its ethical standards and inclusive community values.
+# ENFT System - Enhanced NFT
+
+## Overview
+
+The ENFT (Enhanced NFT) system is the foundational layer for the TOTE-CODEX W.A.R. MODE implementation. It provides the framework for creating, validating, and managing enhanced NFT artifacts with advanced security and compliance features.
+
+## Core Policies
+
+All ENFT artifacts **MUST** comply with these three core policies:
+
+- ✅ **kids_first:** true - All systems prioritize child safety
+- ✅ **sabbath_safe:** true - Systems respect sacred rest periods
+- ✅ **no_dark_patterns:** true - No manipulative or deceptive design
+
+## TOTE-CODEX Integration
+
+The ENFT system is fully integrated with TOTE-CODEX W.A.R. MODE:
+
+- **W.A.R. Mode Enabled:** Watchtower Asset Retrieval active
+- **Mimicry Detection:** Real-time mimic identification
+- **Scroll Sing Defense:** Vocal authentication enabled
+- **TimeRing Codes:** Temporal binding active
+- **Tribunal Logging:** All transactions recorded
+
+## BLEU WALLET Integration
+
+ENFT receipts are automatically generated for BLEU Bill (ZB) transactions:
+
+- Auto-minting on every transaction
+- Immutable proof of ownership
+- Tribunal-grade evidence
+- Vault-backed security
 
 ## Directory Structure
 

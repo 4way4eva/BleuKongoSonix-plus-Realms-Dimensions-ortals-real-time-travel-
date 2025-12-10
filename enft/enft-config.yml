@@ -13,6 +13,14 @@ project:
 
 # Core ENFT Policies - All artifacts must comply
 policies:
+# ENFT Configuration - Enhanced NFT System
+# EV0L Enhanced NFT (ENFT) Core Configuration
+
+version: "1.0.0"
+name: "ENFT System - Tote Codex W.A.R. Mode"
+
+# Core Policies (ALL artifacts must comply)
+core_policies:
   kids_first: true
   sabbath_safe: true
   no_dark_patterns: true

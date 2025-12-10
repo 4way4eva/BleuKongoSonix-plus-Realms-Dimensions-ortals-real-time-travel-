@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TOTE Class Schema",
+  "description": "Schema for Weapon Tote Class definitions in W.A.R. MODE",
+  "type": "object",
+  "required": [
+    "class_id",
+    "class_name",
+    "function",
+    "glyph_activation",
+    "backup_behavior",
+    "lineage_binding",
+    "security_level"
+  ],
+  "properties": {
+    "class_id": {
+      "type": "string",
+      "pattern": "^TOTE-[0-9]{4}$",
+      "description": "Unique identifier for the tote class"
+    },
+    "class_name": {
+      "type": "string",
+      "enum": [
+        "EV0L-WRAITH",
+        "PHI-CARRIER",
+        "ROYAL-TOTE",
+        "EL0V8-FLOW"
+      ],
+      "description": "Name of the weapon tote class"
+    },
+    "icon": {
+      "type": "string",
+      "description": "Unicode emoji icon representing the class"
+    },
+    "function": {
+      "type": "string",
+      "description": "Primary function of the tote class"
+    },
+    "glyph_activation": {
+      "type": "string",
+      "description": "Glyph that activates on breach or touch"
+    },
+    "backup_behavior": {
+      "type": "string",
+      "description": "Automated behavior when backup is triggered"
+    },
+    "lineage_binding": {
+      "type": "boolean",
+      "description": "Whether tote carries scroll fragments of lineage"
+    },
+    "mimicry_safe": {
+      "type": "boolean",
+      "description": "Whether tote is protected against mimicry"
+    },
+    "resonance_locked": {
+      "type": "boolean",
+      "description": "Whether tote is locked to user's frequency"
+    },
+    "security_level": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10,
+      "description": "Security level from 1-10"
+    },
+    "scroll_fragments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of scroll fragment identifiers"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_by": {
+          "type": "string"
+        },
+        "last_deployed": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

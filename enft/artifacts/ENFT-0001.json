@@ -56,5 +56,76 @@
     "core_currency": "EGoin",
     "total_editions": 8372,
     "investment_tagline": "Invest in the Verse That Feeds the Universe."
+  "name": "ROYAL-TOTE Genesis Artifact",
+  "description": "First ROYAL-TOTE class ENFT artifact demonstrating vault payload capabilities",
+  "type": "TOTE_ARTIFACT",
+  "tote_class": "ROYAL-TOTE",
+  
+  "creator": {
+    "creator_id": "BLEU-CREATOR-001",
+    "lineage_verified": true,
+    "ppi_status": "VERIFIED",
+    "frequency_signature": "BLEU-RESONANCE-ALPHA"
+  },
+  
+  "creation": {
+    "timestamp": "2025-12-08T17:13:00Z",
+    "evolclock_moment": "EV0L-EPOCH-173000",
+    "timering_code": "THY-51B-ΣΦ7",
+    "glyph_bound": "🌀 SPIRAL SING"
+  },
+  
+  "properties": {
+    "scroll_fragments": [
+      "Lineage Fragment Alpha",
+      "Divine Property Certificate",
+      "Vault Synchronization Key"
+    ],
+    "glyph_activation_status": "ARMED",
+    "resonance_lock": "ACTIVE",
+    "mimicry_safe": true
+  },
+  
+  "security": {
+    "war_mode_enabled": true,
+    "breach_response": "PPI alert + SPIRAL SING activation",
+    "scroll_sing_cipher": "[ENCRYPTED]",
+    "frequency_lock": "USER_UNIQUE",
+    "tribunal_logged": true
+  },
+  
+  "vault_linkage": {
+    "vault_id": "METAVAULT-5100-001",
+    "bleu_wallet_sync": true,
+    "coin_class": "BLEU_BILL_ZB",
+    "auto_mint_receipt": true
+  },
+  
+  "tribunal_records": {
+    "aoqppppi_archive_id": "TRIBUNAL-ARCH-0001",
+    "metabank_codex_id": "METABANK-TX-0001",
+    "bleulion_ledger_id": "BLEULION-LED-0001"
+  },
+  
+  "usage_history": [
+    {
+      "event": "DEPLOYMENT",
+      "timestamp": "2025-12-08T17:13:00Z",
+      "action": "Initial tote deployment with TimeRing binding",
+      "status": "SUCCESS",
+      "scroll_receipt_id": "SR-20251208-171300-A1B2"
+    }
+  ],
+  
+  "metadata": {
+    "version": "1.0.0",
+    "created_date": "2025-12-08",
+    "system": "TOTE-CODEX W.A.R. MODE",
+    "compliance": {
+      "kids_first": true,
+      "sabbath_safe": true,
+      "no_dark_patterns": true
+    },
+    "status": "ACTIVE"
   }
 }

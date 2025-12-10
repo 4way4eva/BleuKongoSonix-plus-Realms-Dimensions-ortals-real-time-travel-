@@ -1,0 +1,18 @@
+{
+  "coin_id": "COIN-0002",
+  "coin_class": "PINK_BILL_ZA",
+  "icon": "💗",
+  "tote_sync": "EL0V8-TOTE",
+  "passive_ability": "Increases supply value in youth lanes",
+  "vault_linked": true,
+  "auto_mint_enft": false,
+  "supply_value_multiplier": 1.5,
+  "inflation_combat": false,
+  "time_verification": false,
+  "description": "Pink Bill (ZA) is designed for EL0V8-TOTE operations, with special focus on youth lane value enhancement.",
+  "metadata": {
+    "created_at": "2025-12-08T17:00:00Z",
+    "created_by": "BLEU_WALLET_SYSTEM",
+    "last_updated": "2025-12-08T17:00:00Z"
+  }
+}

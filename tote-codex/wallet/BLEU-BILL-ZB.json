@@ -1,0 +1,18 @@
+{
+  "coin_id": "COIN-0001",
+  "coin_class": "BLEU_BILL_ZB",
+  "icon": "🪙",
+  "tote_sync": "ROYAL-TOTE",
+  "passive_ability": "Auto-mints ENFT receipt",
+  "vault_linked": true,
+  "auto_mint_enft": true,
+  "supply_value_multiplier": 1.0,
+  "inflation_combat": false,
+  "time_verification": false,
+  "description": "BLEU Bill (ZB) is the primary currency for ROYAL-TOTE transactions. Automatically mints ENFT receipts for every transaction.",
+  "metadata": {
+    "created_at": "2025-12-08T17:00:00Z",
+    "created_by": "BLEU_WALLET_SYSTEM",
+    "last_updated": "2025-12-08T17:00:00Z"
+  }
+}
