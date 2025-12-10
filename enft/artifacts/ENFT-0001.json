@@ -1,5 +1,61 @@
 {
   "enft_id": "ENFT-0001",
+  "name": "BLEU FLAME Commemorative Plate",
+  "description": "A limited edition commemorative plate from the EVOLVERSE Galaxy Grub division, featuring SmartCeramic technology with memory ink that reacts to temperature and maintains ECuln balance. This intelligent dish remembers its owner and represents ownership in the expanding EVOLVERSE ecosystem.",
+  "tagline": "A Dish So Smart, It Remembers You.",
+  "type": "commemorative_plate",
+  "tiers": [
+    {
+      "tier_name": "Public Edition",
+      "tier_type": "Public",
+      "edition_count": 8333,
+      "description": "Global drop available to the public. Each plate is bundled with the first VerseMeal.",
+      "bundle": "First VerseMeal (Gam LT)"
+    },
+    {
+      "tier_name": "Elite Founder's Plates",
+      "tier_type": "Elite",
+      "edition_count": 38,
+      "description": "Exclusive Founder's Plates minted only once. Reserved for early supporters and key ecosystem participants."
+    },
+    {
+      "tier_name": "True Edition",
+      "tier_type": "God_Tier",
+      "edition_count": "1-of-1",
+      "description": "The singular God Tier True Edition - the ultimate collector's piece and symbol of complete ownership in the BLEU FLAME collection."
+    }
+  ],
+  "material": {
+    "primary_material": "SmartCeramic",
+    "special_properties": [
+      "Memory ink technology",
+      "Temperature reactivity",
+      "ECuln balance maintenance",
+      "Owner recognition capability"
+    ]
+  },
+  "design": {
+    "elements": [
+      "Glowing glyphs",
+      "Blue flame etch pattern",
+      "Interactive temperature-reactive surface"
+    ],
+    "signature": "ENFT signature underneath"
+  },
+  "policies": {
+    "kids_first": true,
+    "sabbath_safe": true,
+    "no_dark_patterns": true
+  },
+  "metadata": {
+    "creator": "EVOLVERSE",
+    "created_date": "2025-12-08",
+    "division": "EVOL GalacyGrub",
+    "project": "EVOLVERSE - Simuldion",
+    "market_reach": "Interplanetary Intercultural Real To-Meta Hybrid",
+    "core_currency": "EGoin",
+    "total_editions": 8372,
+    "investment_tagline": "Invest in the Verse That Feeds the Universe."
   "name": "ROYAL-TOTE Genesis Artifact",
   "description": "First ROYAL-TOTE class ENFT artifact demonstrating vault payload capabilities",
   "type": "TOTE_ARTIFACT",

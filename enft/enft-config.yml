@@ -1,3 +1,18 @@
+# ENFT Configuration
+# EV0L Enhanced NFT (ENFT) System Configuration
+# EVOLVERSE - Galaxy Grub Division
+
+project:
+  name: "EVOLVERSE"
+  division: "EVOL GalacyGrub"
+  market_reach: "Interplanetary Intercultural Real To-Meta Hybrid"
+  core_currency: "EGoin"
+  ownership_model: "ENFT"
+  valuation: "1487 Trillion USD"
+  growth_trajectory: "Annual Skyward"
+
+# Core ENFT Policies - All artifacts must comply
+policies:
 # ENFT Configuration - Enhanced NFT System
 # EV0L Enhanced NFT (ENFT) Core Configuration
 
@@ -10,23 +25,11 @@ core_policies:
   sabbath_safe: true
   no_dark_patterns: true
 
-# TOTE-CODEX Integration
-tote_codex:
-  enabled: true
-  war_mode: true  # W.A.R. = Watchtower Asset Retrieval
-  
-# Security Settings
-security:
-  mimicry_detection: true
-  scroll_sing_defense: true
-  timering_codes: true
-  tribunal_logging: true
-  
-# BLEU WALLET Integration
-bleu_wallet:
-  enabled: true
-  coin_classes:
-    - BLEU_BILL_ZB
-    - PINK_BILL_ZA
-    - ZIONIARE_COIN
-    - MIRROR_COIN
+# ENFT Schema Version
+schema_version: "1.0"
+
+# Validation Settings
+validation:
+  strict_mode: true
+  require_policies: true
+  require_metadata: true
