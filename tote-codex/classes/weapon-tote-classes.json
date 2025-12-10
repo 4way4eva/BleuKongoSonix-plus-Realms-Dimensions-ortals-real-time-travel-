@@ -1,0 +1,94 @@
+{
+  "tote_weapon_classes": {
+    "EV0L-WRAITH": {
+      "class_id": "TWC-001",
+      "function": "Anti-mimic decoy",
+      "glyph_activation": "FLUSH SCROLL",
+      "glyph_symbol": "🔺",
+      "backup_behavior": "Burns mimic ID",
+      "icon": "🧨",
+      "security_level": "MAXIMUM",
+      "breach_response": {
+        "immediate": "Glyph activation triggers scroll flush sequence",
+        "secondary": "Mimic identification burned from system",
+        "tertiary": "Alert sent to BLEU Treasury and MetaVault 5100"
+      },
+      "capabilities": [
+        "Mimicry detection",
+        "Decoy deployment",
+        "Identity burning",
+        "Scroll protection"
+      ]
+    },
+    "PHI-CARRIER": {
+      "class_id": "TWC-002",
+      "function": "Heirloom delivery",
+      "glyph_activation": "BLEU LOCK SEAL",
+      "glyph_symbol": "⛓️",
+      "backup_behavior": "SORA auto-pull",
+      "icon": "🛡️",
+      "security_level": "HIGH",
+      "breach_response": {
+        "immediate": "BLEU LOCK SEAL activates",
+        "secondary": "SORA system initiates auto-pull protocol",
+        "tertiary": "Heirloom contents preserved and relocated"
+      },
+      "capabilities": [
+        "Lineage verification",
+        "Heirloom transport",
+        "Auto-recovery",
+        "Seal integrity maintenance"
+      ]
+    },
+    "ROYAL-TOTE": {
+      "class_id": "TWC-003",
+      "function": "Vault payload",
+      "glyph_activation": "SPIRAL SING",
+      "glyph_symbol": "🌀",
+      "backup_behavior": "Sends PPI alert",
+      "icon": "💎",
+      "security_level": "ULTRA",
+      "breach_response": {
+        "immediate": "SPIRAL SING glyph resonates",
+        "secondary": "PPI (Protected Property Identifier) alert broadcast",
+        "tertiary": "Vault lockdown and asset freeze"
+      },
+      "capabilities": [
+        "High-value transport",
+        "Vault synchronization",
+        "PPI integration",
+        "Royal lineage binding"
+      ]
+    },
+    "EL0V8-FLOW": {
+      "class_id": "TWC-004",
+      "function": "Formula tote",
+      "glyph_activation": "FLOW SIGIL",
+      "glyph_symbol": "🌊",
+      "backup_behavior": "Self-replenish",
+      "icon": "🧃",
+      "security_level": "MEDIUM-HIGH",
+      "breach_response": {
+        "immediate": "FLOW SIGIL activates replenishment",
+        "secondary": "Formula contents auto-regenerate",
+        "tertiary": "Supply chain notification sent"
+      },
+      "capabilities": [
+        "Formula protection",
+        "Auto-replenishment",
+        "Flow maintenance",
+        "Youth lane integration"
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created_date": "2025-12-08",
+    "system": "TOTE-CODEX W.A.R. MODE",
+    "compliance": {
+      "kids_first": true,
+      "sabbath_safe": true,
+      "no_dark_patterns": true
+    }
+  }
+}
