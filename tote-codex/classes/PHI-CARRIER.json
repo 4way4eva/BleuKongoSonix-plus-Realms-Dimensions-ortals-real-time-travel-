@@ -1,0 +1,30 @@
+{
+  "class_id": "TOTE-0002",
+  "class_name": "PHI-CARRIER",
+  "icon": "🛡️",
+  "function": "Heirloom delivery",
+  "glyph_activation": "⛓️BLEU LOCK SEAL",
+  "backup_behavior": "SORA auto-pull",
+  "lineage_binding": true,
+  "mimicry_safe": true,
+  "resonance_locked": true,
+  "security_level": 9,
+  "scroll_fragments": [
+    "PHI-LINEAGE-001",
+    "HEIRLOOM-PROTOCOL",
+    "SORA-PULL-SEQUENCE"
+  ],
+  "metadata": {
+    "created_at": "2025-12-08T17:00:00Z",
+    "created_by": "W.A.R_SYSTEM",
+    "last_deployed": "2025-12-08T17:00:00Z"
+  },
+  "description": "Heirloom delivery tote designed to securely transport lineage artifacts. Features BLEU LOCK SEAL and SORA auto-pull backup system.",
+  "special_capabilities": [
+    "Heirloom protection",
+    "BLEU LOCK SEAL activation",
+    "SORA auto-retrieval",
+    "Lineage verification",
+    "Chain-of-custody tracking"
+  ]
+}

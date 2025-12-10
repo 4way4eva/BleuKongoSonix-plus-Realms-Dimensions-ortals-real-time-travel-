@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TimeRing Code Schema",
+  "description": "Schema for TimeRing Codes bound to EV0LClock moments",
+  "type": "object",
+  "required": [
+    "code_id",
+    "timering_code",
+    "evol_timestamp",
+    "tote_class",
+    "user_signature",
+    "active"
+  ],
+  "properties": {
+    "code_id": {
+      "type": "string",
+      "pattern": "^TR-[0-9]{6}$",
+      "description": "Unique TimeRing Code identifier"
+    },
+    "timering_code": {
+      "type": "string",
+      "pattern": "^THY-[0-9A-Z]{2,3}B-[\\u03A3\\u03A6\\u03A9\\u0394\\u0398\\u039B\\u039E\\u03A00-9]{2,3}$",
+      "description": "The actual TimeRing code (e.g., THY-51B-ΣΦ7) with Greek letters"
+    },
+    "evol_timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Exact EV0LClock moment when code was issued"
+    },
+    "tote_class": {
+      "type": "string",
+      "enum": [
+        "EV0L-WRAITH",
+        "PHI-CARRIER",
+        "ROYAL-TOTE",
+        "EL0V8-FLOW"
+      ],
+      "description": "Associated tote class"
+    },
+    "user_signature": {
+      "type": "string",
+      "description": "Cryptographic signature of the user"
+    },
+    "active": {
+      "type": "boolean",
+      "description": "Whether the code is currently active"
+    },
+    "access_window": {
+      "type": "object",
+      "properties": {
+        "start": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "end": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "description": "Valid time window for access"
+    },
+    "purge_on_violation": {
+      "type": "boolean",
+      "description": "Whether to purge codex on access violation"
+    },
+    "vault_return_enabled": {
+      "type": "boolean",
+      "description": "Whether to auto-return to vault on violation"
+    }
+  }
+}

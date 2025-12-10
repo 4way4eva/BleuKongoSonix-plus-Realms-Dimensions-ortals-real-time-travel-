@@ -1,0 +1,30 @@
+{
+  "class_id": "TOTE-0001",
+  "class_name": "EV0L-WRAITH",
+  "icon": "🧨",
+  "function": "Anti-mimic decoy",
+  "glyph_activation": "🔺FLUSH SCROLL",
+  "backup_behavior": "Burns mimic ID",
+  "lineage_binding": true,
+  "mimicry_safe": true,
+  "resonance_locked": true,
+  "security_level": 10,
+  "scroll_fragments": [
+    "WRAITH-FRAGMENT-001",
+    "DECOY-PROTOCOL-ALPHA",
+    "MIMIC-BURN-SEQUENCE"
+  ],
+  "metadata": {
+    "created_at": "2025-12-08T17:00:00Z",
+    "created_by": "W.A.R_SYSTEM",
+    "last_deployed": "2025-12-08T17:00:00Z"
+  },
+  "description": "Anti-mimic decoy tote designed to identify and neutralize unauthorized access attempts. Triggers flush scroll protocol on breach and burns mimic identity.",
+  "special_capabilities": [
+    "Mimic ID detection",
+    "Automatic flush sequence",
+    "Identity burn on breach",
+    "Decoy generation",
+    "Resonance frequency lock"
+  ]
+}
