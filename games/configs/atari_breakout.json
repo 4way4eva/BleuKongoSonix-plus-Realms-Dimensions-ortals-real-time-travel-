@@ -1,0 +1,63 @@
+{
+  "name": "Atari Breakout #6",
+  "version": "4.7",
+  "type": "arcade",
+  "description": "Classic brick-breaking arcade game 🧱 - Variant #6 as specified in requirements",
+  "emoji": "🧱",
+  "_version_note": "Version 4.7 and variant #6 designation come from the original problem statement specification",
+  "game_modes": [
+    {
+      "mode": 1,
+      "name": "Classic",
+      "lives": 3,
+      "brick_rows": 6,
+      "bricks_per_row": 14,
+      "ball_speed": 1.0,
+      "paddle_width": 60
+    },
+    {
+      "mode": 2,
+      "name": "Progressive",
+      "lives": 5,
+      "brick_rows": 8,
+      "bricks_per_row": 16,
+      "ball_speed": 1.2,
+      "paddle_width": 50
+    },
+    {
+      "mode": 3,
+      "name": "Cavity",
+      "lives": 3,
+      "brick_rows": 6,
+      "bricks_per_row": 14,
+      "ball_speed": 1.0,
+      "paddle_width": 40,
+      "cavity_mode": true
+    }
+  ],
+  "brick_colors": [
+    "#ff0000",
+    "#ff6600",
+    "#ffcc00",
+    "#00ff00",
+    "#0066ff",
+    "#9900ff"
+  ],
+  "scoring": {
+    "row_1_2": 7,
+    "row_3_4": 4,
+    "row_5_6": 1
+  },
+  "ui_config": {
+    "background_color": "#000000",
+    "paddle_color": "#ffffff",
+    "ball_color": "#ffffff"
+  },
+  "controls": {
+    "move_left": "D-pad left or left key",
+    "move_right": "D-pad right or right key",
+    "launch_ball": "A button",
+    "pause": "START button",
+    "quit": "SELECT button"
+  }
+}

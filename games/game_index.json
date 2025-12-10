@@ -1,0 +1,65 @@
+{
+  "game_collection": {
+    "name": "BleuKongoSonix+ Classic Games Collection",
+    "version": "1.0.0",
+    "description": "Built-in mini-games and classic arcade games for Genesis Plus GX",
+    "last_updated": "2025-12-08",
+    "total_games": 4
+  },
+  "games": [
+    {
+      "id": 1,
+      "name": "HangMan",
+      "config_file": "configs/hangman.json",
+      "type": "puzzle",
+      "emoji": "🎮",
+      "enabled": true,
+      "version": "1.0"
+    },
+    {
+      "id": 2,
+      "name": "MineZZ",
+      "config_file": "configs/minesweeper.json",
+      "type": "puzzle",
+      "emoji": "💣",
+      "enabled": true,
+      "version": "1.0"
+    },
+    {
+      "id": 6,
+      "name": "Atari Breakout #6",
+      "config_file": "configs/atari_breakout.json",
+      "type": "arcade",
+      "emoji": "🧱",
+      "enabled": true,
+      "version": "4.7",
+      "notes": "Classic Atari variant #6"
+    },
+    {
+      "id": 4,
+      "name": "Wheelie Lynch",
+      "config_file": "configs/wheelie_lynch.json",
+      "type": "racing",
+      "emoji": "🏍️",
+      "enabled": true,
+      "version": "4.7",
+      "features": [
+        "Cybernetic character (🦾🦿🤖)",
+        "Wheelie mechanics",
+        "Multiple game modes",
+        "Championship racing"
+      ]
+    }
+  ],
+  "categories": {
+    "puzzle": ["HangMan", "MineZZ"],
+    "arcade": ["Atari Breakout #6"],
+    "racing": ["Wheelie Lynch"]
+  },
+  "ui_theme": {
+    "menu_background": "#1a1a2e",
+    "menu_text": "#eaeaea",
+    "menu_highlight": "#0f3460",
+    "menu_accent": "#16213e"
+  }
+}
