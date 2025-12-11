@@ -1,0 +1,347 @@
+{
+  "entities": [
+    {
+      "name": "Royal African Company",
+      "resources": ["Gold", "Slaves", "Ivory"],
+      "operating_regions": ["West Africa", "Ghana", "Nigeria"],
+      "modern_successor": "Merged into Bank of England capital interests",
+      "category": "trading_company"
+    },
+    {
+      "name": "Casa da Guiné",
+      "resources": ["Gold", "Slaves"],
+      "operating_regions": ["West Africa", "Guinea", "Senegal"],
+      "modern_successor": "Portuguese colonial administration legacy",
+      "category": "trading_company"
+    },
+    {
+      "name": "Dutch West India Company",
+      "resources": ["Gold", "Sugar", "Slaves"],
+      "operating_regions": ["West Africa", "Caribbean"],
+      "modern_successor": "Dutch colonial financial networks",
+      "category": "trading_company"
+    },
+    {
+      "name": "British South Africa Company",
+      "resources": ["Gold", "Diamonds"],
+      "operating_regions": ["Zimbabwe", "Zambia"],
+      "modern_successor": "Anglo American plc",
+      "category": "mining"
+    },
+    {
+      "name": "Anglo-Persian Oil Company",
+      "resources": ["Oil"],
+      "operating_regions": ["Iran", "Nigeria"],
+      "modern_successor": "BP (British Petroleum)",
+      "category": "oil_gas"
+    },
+    {
+      "name": "Compagnie du Congo pour le Commerce et l'Industrie",
+      "resources": ["Rubber", "Ivory"],
+      "operating_regions": ["Congo Free State"],
+      "modern_successor": "Société Générale de Belgique / Umicore",
+      "category": "trading_company"
+    },
+    {
+      "name": "De Beers Consolidated Mines",
+      "resources": ["Diamonds"],
+      "operating_regions": ["South Africa", "Namibia"],
+      "modern_successor": "De Beers Group / Anglo American",
+      "category": "mining"
+    },
+    {
+      "name": "French West Africa Administration",
+      "resources": ["Gold", "Peanuts", "Cotton"],
+      "operating_regions": ["Senegal", "Mali", "Niger"],
+      "modern_successor": "TotalEnergies, Bolloré Group",
+      "category": "trading_company"
+    },
+    {
+      "name": "German East Africa Company",
+      "resources": ["Coffee", "Sisal"],
+      "operating_regions": ["Tanzania"],
+      "modern_successor": "Successor to German trade interests",
+      "category": "trading_company"
+    },
+    {
+      "name": "Portuguese Mozambique Company",
+      "resources": ["Gold", "Slaves", "Sugar"],
+      "operating_regions": ["Mozambique"],
+      "modern_successor": "Merged into Portuguese state enterprises",
+      "category": "trading_company"
+    },
+    {
+      "name": "Unilever (Lever Brothers)",
+      "resources": ["Palm oil"],
+      "operating_regions": ["Nigeria", "Congo"],
+      "modern_successor": "Unilever PLC",
+      "category": "manufacturing"
+    },
+    {
+      "name": "Firestone Tire & Rubber",
+      "resources": ["Rubber"],
+      "operating_regions": ["Liberia"],
+      "modern_successor": "Bridgestone (current owner)",
+      "category": "manufacturing"
+    },
+    {
+      "name": "Royal Dutch Shell",
+      "resources": ["Oil"],
+      "operating_regions": ["Nigeria", "Gabon"],
+      "modern_successor": "Shell plc",
+      "category": "oil_gas"
+    },
+    {
+      "name": "Chevron (Standard Oil of California)",
+      "resources": ["Oil"],
+      "operating_regions": ["Angola", "Nigeria"],
+      "modern_successor": "Chevron Corporation",
+      "category": "oil_gas"
+    },
+    {
+      "name": "ExxonMobil (Standard Oil of New Jersey)",
+      "resources": ["Oil"],
+      "operating_regions": ["Equatorial Guinea", "Nigeria"],
+      "modern_successor": "ExxonMobil Corporation",
+      "category": "oil_gas"
+    },
+    {
+      "name": "Compagnie Française des Pétroles",
+      "resources": ["Oil"],
+      "operating_regions": ["Gabon", "Algeria"],
+      "modern_successor": "TotalEnergies",
+      "category": "oil_gas"
+    },
+    {
+      "name": "Union Minière du Haut-Katanga",
+      "resources": ["Copper", "Cobalt"],
+      "operating_regions": ["Congo (Katanga)"],
+      "modern_successor": "Umicore / Glencore",
+      "category": "mining"
+    },
+    {
+      "name": "Rio Tinto Company",
+      "resources": ["Gold", "Copper"],
+      "operating_regions": ["South Africa", "Namibia"],
+      "modern_successor": "Rio Tinto plc",
+      "category": "mining"
+    },
+    {
+      "name": "Anglo American Corporation",
+      "resources": ["Diamonds", "Gold"],
+      "operating_regions": ["South Africa", "Botswana"],
+      "modern_successor": "Anglo American plc",
+      "category": "mining"
+    },
+    {
+      "name": "Société Minière du Beceka",
+      "resources": ["Tin", "Gold"],
+      "operating_regions": ["Congo"],
+      "modern_successor": "Glencore",
+      "category": "mining"
+    },
+    {
+      "name": "Chartered Company of the Niger",
+      "resources": ["Palm oil", "Slaves"],
+      "operating_regions": ["Nigeria"],
+      "modern_successor": "Shell / British state merger",
+      "category": "trading_company"
+    },
+    {
+      "name": "East India Company",
+      "resources": ["Spices", "Textiles"],
+      "operating_regions": ["India", "East Africa"],
+      "modern_successor": "British state legacy",
+      "category": "trading_company"
+    },
+    {
+      "name": "Hudson's Bay Company",
+      "resources": ["Furs", "Timber"],
+      "operating_regions": ["Canada", "Trade networks"],
+      "modern_successor": "HBC (retail)",
+      "category": "trading_company"
+    },
+    {
+      "name": "Tanganyika Concessions",
+      "resources": ["Copper"],
+      "operating_regions": ["Congo", "Zambia"],
+      "modern_successor": "Kabwe mining consortia",
+      "category": "mining"
+    },
+    {
+      "name": "Lonrho",
+      "resources": ["Agriculture", "Mining"],
+      "operating_regions": ["Africa-wide"],
+      "modern_successor": "London Rhodesia Company legacy",
+      "category": "other"
+    },
+    {
+      "name": "Rothschild & Sons (banking agents)",
+      "resources": ["Gold", "Finance"],
+      "operating_regions": ["South Africa"],
+      "modern_successor": "NM Rothschild & Sons Ltd",
+      "category": "finance"
+    },
+    {
+      "name": "Barclays Bank",
+      "resources": ["Finance", "Trade credit"],
+      "operating_regions": ["Africa-wide"],
+      "modern_successor": "Barclays PLC",
+      "category": "finance"
+    },
+    {
+      "name": "Standard Chartered Bank",
+      "resources": ["Finance", "Trade"],
+      "operating_regions": ["Africa", "Asia"],
+      "modern_successor": "Standard Chartered PLC",
+      "category": "finance"
+    },
+    {
+      "name": "Bolloré Group",
+      "resources": ["Shipping", "Oil logistics"],
+      "operating_regions": ["West Africa"],
+      "modern_successor": "Bolloré Logistics / TotalEnergies",
+      "category": "other"
+    },
+    {
+      "name": "SOCO International",
+      "resources": ["Oil exploration"],
+      "operating_regions": ["Congo"],
+      "modern_successor": "Pharos Energy",
+      "category": "oil_gas"
+    },
+    {
+      "name": "Glencore",
+      "resources": ["Copper", "Cobalt", "Oil"],
+      "operating_regions": ["DRC", "Zambia", "Nigeria"],
+      "modern_successor": "Glencore PLC",
+      "category": "mining"
+    },
+    {
+      "name": "Umicore",
+      "resources": ["Copper", "Cobalt refining"],
+      "operating_regions": ["Belgium", "Congo"],
+      "modern_successor": "Umicore SA",
+      "category": "mining"
+    },
+    {
+      "name": "TotalEnergies",
+      "resources": ["Oil", "Gas"],
+      "operating_regions": ["Nigeria", "Gabon", "Algeria"],
+      "modern_successor": "TotalEnergies SE",
+      "category": "oil_gas"
+    },
+    {
+      "name": "BP",
+      "resources": ["Oil"],
+      "operating_regions": ["Nigeria", "Angola"],
+      "modern_successor": "BP plc",
+      "category": "oil_gas"
+    },
+    {
+      "name": "Shell",
+      "resources": ["Oil"],
+      "operating_regions": ["Nigeria", "Gabon"],
+      "modern_successor": "Shell plc",
+      "category": "oil_gas"
+    },
+    {
+      "name": "ENI",
+      "resources": ["Oil", "Gas"],
+      "operating_regions": ["Libya", "Egypt"],
+      "modern_successor": "Eni SpA",
+      "category": "oil_gas"
+    },
+    {
+      "name": "Vale",
+      "resources": ["Nickel", "Coal"],
+      "operating_regions": ["Mozambique"],
+      "modern_successor": "Vale SA",
+      "category": "mining"
+    },
+    {
+      "name": "ArcelorMittal",
+      "resources": ["Steel", "Ore"],
+      "operating_regions": ["Liberia"],
+      "modern_successor": "ArcelorMittal SA",
+      "category": "mining"
+    },
+    {
+      "name": "Société Générale de Belgique",
+      "resources": ["Finance", "Mining"],
+      "operating_regions": ["Congo"],
+      "modern_successor": "Fortis/BNP Paribas Fortis",
+      "category": "finance"
+    },
+    {
+      "name": "Carrefour",
+      "resources": ["Agriculture", "Retail"],
+      "operating_regions": ["Francophone Africa"],
+      "modern_successor": "Carrefour SA",
+      "category": "other"
+    },
+    {
+      "name": "Nestlé",
+      "resources": ["Cocoa", "Coffee"],
+      "operating_regions": ["Ivory Coast", "Ghana"],
+      "modern_successor": "Nestlé SA",
+      "category": "agriculture"
+    },
+    {
+      "name": "Cadbury Schweppes",
+      "resources": ["Cocoa"],
+      "operating_regions": ["West Africa"],
+      "modern_successor": "Mondelez International",
+      "category": "agriculture"
+    },
+    {
+      "name": "Cargill",
+      "resources": ["Agriculture", "Cocoa"],
+      "operating_regions": ["Ivory Coast", "Ghana"],
+      "modern_successor": "Cargill Inc.",
+      "category": "agriculture"
+    },
+    {
+      "name": "ADM (Archer Daniels Midland)",
+      "resources": ["Cocoa", "Soy"],
+      "operating_regions": ["Ghana", "Nigeria"],
+      "modern_successor": "ADM Co.",
+      "category": "agriculture"
+    },
+    {
+      "name": "Monsanto (Bayer)",
+      "resources": ["Seeds", "Biotech"],
+      "operating_regions": ["Africa-wide"],
+      "modern_successor": "Bayer AG",
+      "category": "agriculture"
+    },
+    {
+      "name": "Danone",
+      "resources": ["Dairy"],
+      "operating_regions": ["North & West Africa"],
+      "modern_successor": "Danone SA",
+      "category": "agriculture"
+    },
+    {
+      "name": "Heineken",
+      "resources": ["Agriculture", "Beer"],
+      "operating_regions": ["Nigeria", "Congo"],
+      "modern_successor": "Heineken NV",
+      "category": "manufacturing"
+    },
+    {
+      "name": "Diageo",
+      "resources": ["Alcohol trade"],
+      "operating_regions": ["Nigeria", "Kenya"],
+      "modern_successor": "Diageo plc",
+      "category": "manufacturing"
+    },
+    {
+      "name": "BAT (British American Tobacco)",
+      "resources": ["Tobacco"],
+      "operating_regions": ["Africa-wide"],
+      "modern_successor": "BAT plc",
+      "category": "agriculture"
+    }
+  ]
+}
