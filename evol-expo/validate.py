@@ -6,7 +6,6 @@ Validates all EXPO artifacts for compliance and integrity
 
 import json
 import sys
-import os
 from pathlib import Path
 from typing import Dict, List, Tuple
 
@@ -54,6 +53,8 @@ def validate_compliance_policies(artifact: Dict, filepath: Path) -> Tuple[bool, 
     for policy, expected_value in required_policies.items():
         if policy not in compliance:
             errors.append(f"Missing required policy: {policy}")
+        elif not isinstance(compliance[policy], bool):
+            errors.append(f"Policy '{policy}' must be a boolean, got {type(compliance[policy]).__name__}")
         elif compliance[policy] != expected_value:
             errors.append(f"Policy '{policy}' must be {expected_value}, got {compliance[policy]}")
     
@@ -77,9 +78,12 @@ def validate_metadata(artifact: Dict, filepath: Path) -> Tuple[bool, List[str]]:
         if field not in metadata:
             errors.append(f"Missing required metadata field: {field}")
     
-    # Validate system field contains "EVOL EXPO"
-    if 'system' in metadata and 'EVOL EXPO' not in metadata['system']:
-        errors.append(f"System field must contain 'EVOL EXPO', got: {metadata['system']}")
+    # Validate system field starts with "EVOL EXPO"
+    if 'system' in metadata:
+        if not isinstance(metadata['system'], str):
+            errors.append(f"System field must be a string, got: {type(metadata['system']).__name__}")
+        elif not metadata['system'].startswith('EVOL EXPO'):
+            errors.append(f"System field must start with 'EVOL EXPO', got: {metadata['system']}")
     
     # Validate status is ACTIVE
     if 'status' in metadata and metadata['status'] != 'ACTIVE':
@@ -145,8 +149,17 @@ def validate_artifact(filepath: Path) -> Tuple[bool, List[str]]:
         
         return len(errors) == 0, errors
         
-    except Exception as e:
-        errors.append(f"Error loading file: {str(e)}")
+    except ValueError as e:
+        errors.append(f"Value error: {str(e)}")
+        return False, errors
+    except FileNotFoundError as e:
+        errors.append(f"File not found: {str(e)}")
+        return False, errors
+    except json.JSONDecodeError as e:
+        errors.append(f"JSON decode error: {str(e)}")
+        return False, errors
+    except KeyError as e:
+        errors.append(f"Missing required key: {str(e)}")
         return False, errors
 
 
